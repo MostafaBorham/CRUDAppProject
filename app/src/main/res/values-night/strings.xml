@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nodata_error">no data found!</string>
+    <string name="delete_notify">Data deleted</string>
+    <string name="neg_btn">cancel</string>
+    <string name="create_notify">\Data added, YourID= \</string>
+    <string name="update_notify">Data updated</string>
+    <string name="nullity_error">should be fill!</string>
+    <string name="id_incorrect_error">ID not found!</string>
+    <string name="nameTxt_error">name should be at least 3 digits!</string>
+    <string name="cityTxt_error">city should be at least 3 digits!</string>
+</resources>

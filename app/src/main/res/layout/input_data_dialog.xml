@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootTxts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <EditText
+        android:id="@+id/idInput"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/inputs_style"
+        android:ems="10"
+        android:hint="entre ID"
+        android:inputType="number"
+        android:maxLength="3"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/inputs_style"
+        android:ems="10"
+        android:hint="entre Name"
+        android:inputType="textPersonName"
+        android:maxLength="10"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:id="@+id/ageInput"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/inputs_style"
+        android:ems="10"
+        android:hint="entre Age"
+        android:inputType="number"
+        android:maxLength="2"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:id="@+id/cityInput"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/inputs_style"
+        android:ems="10"
+        android:hint="entre City"
+        android:inputType="text"
+        android:maxLength="10"
+        android:paddingStart="10dp" />
+</LinearLayout>
